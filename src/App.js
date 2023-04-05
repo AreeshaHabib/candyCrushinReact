@@ -96,7 +96,6 @@ const App = () => {
     const squareBeingReplacedId = parseInt(squareBeingreplaced.getAttribute('data-id'))
     const squareBeingDragId = parseInt(squareBeingDrag.getAttribute('data-id'))
   }
-  //This Function is for creating board of 64 boxes 
   const createBoard = () => {
     const randomColorArrangement = []
     for (let i = 0; i < width * width; i++) {
